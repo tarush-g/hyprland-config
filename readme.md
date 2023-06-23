@@ -23,6 +23,7 @@ My personal configuration files for Arch Linux with [Hyprland](https://hyprland.
 | S-(0-9) | Switch workpace |
 | S-Shift-(0-9) | Move to workpace |
 | S-Ctrl-(0-9) | Move to workpace silently |
+
 \*Specific application can be adjusted in the environment variables at the top of hypr/keybinds.conf
 
 ## Dependencies
