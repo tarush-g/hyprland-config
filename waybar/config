@@ -1,0 +1,46 @@
+{
+    "layer": "bottom",
+    "height": 20,
+    "spacing": 0,
+    "modules-left": ["wlr/workspaces", "network"],
+    "modules-center": ["clock"],
+    "modules-right": ["backlight", "battery", "pulseaudio"],
+
+    "pulseaudio": {
+        "format": "[{volume}% {icon}]",
+        "format-muted": "[muted]",
+        "on-click": "pavucontrol",
+        "tooltip": false,
+        "format-icons": {
+			"headphone": "🎧",
+            "default": ["🔈","🔊"]
+		}
+    },
+
+	"network": {
+        "format": "",
+        "format-linked": "{essid} - no ip",
+        "format-disconnected": "[no wifi]",
+        "tooltip": false,
+        "on-click": "nmtui"
+    },
+    
+	"battery": {
+	    "interval": 60,
+	    "format": "[{capacity}% {icon}]",
+	    "format-charging": "[{capacity}% 🔌]",
+	    "format-full": "[fully charged]",
+	    "format-icons": ["", "", "", "", ""]
+	},
+	
+	"backlight": {
+	    "format": "[{percent}% {icon}]",
+	    "format-icons": ["☀️"]
+	},
+	
+    "clock": {
+        "format": "{:%I:%M on %B %d}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    }
+    
+}

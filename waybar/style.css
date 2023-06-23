@@ -1,0 +1,26 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: JetBrains Mono;
+    font-size: medium;
+    min-height: 0;
+}
+
+window#waybar {
+    background: @background;
+    color: @foreground;
+}
+
+#workspaces button {
+    padding: 0 7px;
+    background: transparent;
+    color: @foreground;
+}
+
+#mode, #clock, #memory, #pulseaudio, #pulseaudio.muted,#battery,#network,#backlight,#mpris {
+	padding: 0 7px;
+
+    background: transparent;
+    background-color: transparent;
+    color: @foreground;
+}
