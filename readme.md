@@ -6,10 +6,10 @@ My personal configuration files for Arch Linux with [Hyprland](https://hyprland.
 | ----------- | ----------- |
 | Super-Q | Kill active window |
 | S-M | Exit Hyprland |
-| S-T | Terminal* |
-| S-B | Browser* |
-| S-E | Editor* |
-| S-F | Files* |
+| S-T | Terminal* (default alacritty)|
+| S-B | Browser* (default firefox)|
+| S-E | Editor* (default vscodium)|
+| S-F | Files* (default dolphin)|
 | S-R | Run |
 | S-S | Screenshot |
 | S-V | Toggle floating |
